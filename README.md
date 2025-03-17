@@ -7,3 +7,6 @@ For documentation, please refer to the following:
 * [Original Readme](https://github.com/qfgaohao/pytorch-ssd) from [`https://github.com/qfgaohao/pytorch-ssd`](https://github.com/qfgaohao/pytorch-ssd)
 
 > Thanks to @qfgaohao for the [upstream implementation](https://github.com/qfgaohao/pytorch-ssd)
+
+
+Running Command : detectnet --model=ssd-mobilenet.onnx --labels=labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes --threshold=0.6 --overlay=line,labels,conf RTSP_URI
